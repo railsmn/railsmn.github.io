@@ -84,3 +84,71 @@ Straight away, there are three things to download and install:
   </div>
 </div>
 
+## Virtual Machine Details
+
+Remember, the virtual machine is a computer running inside your computer. In our case, it's running a version of Linux called Ubuntu. VirtualBox shares the contents of the `railsmn-dev-box` folder with Ubuntu, where it's available at `/vagrant`. This means that you can browse and edit files on your operating system, with your favorite editor, and the changes will be reflected inside the virtual machine, where Ruby and Rails are running.
+
+### What's In The Box?
+
+* Git
+* RVM
+* Ruby 2.0.0 (binary RVM install)
+* Bundler
+* SQLite3, MySQL, and Postgres
+* System dependencies for nokogiri, sqlite3, mysql, mysql2, and pg
+* Databases and users needed to run the Active Record test suite
+* Node.js for the asset pipeline
+* Memcached
+
+
+
+### Virtual Machine Management
+
+To __exit__ SSH connection to Vagrant Virtual Machine,
+
+    exit        # option 1
+    # press ^D  # option 2
+
+
+To __suspend__ virtual machine,
+
+    # from your computer
+    vagrant suspend
+
+
+To __resume__ virtual machine,
+
+    # from your computer
+    vagrant resume
+
+
+To __shutdown/halt__ virtual machine,
+
+    # from your computer
+    vagrant halt
+
+
+To __resume__ virtual machine,
+
+     # from your computer
+     vagrant up
+
+
+To get __status__ of virtual machine,
+
+    # from your computer
+    vagrant status
+
+
+To completely delete virtual machine,
+
+    # from your computer
+    vagrant destroy   # DANGER: all is gone
+
+
+Please check the [Vagrant documentation](http://vagrantup.com/v1/docs/index.html) for more information on Vagrant.
+
+
+## Credits
+
+This is a renamed fork of [rails-dev-box](https://github.com/rails/rails-dev-box). Big Thanks to [Xavier Noria](https://github.com/fxn) and other contributors for their efforts. You guys rock. Thanks!
