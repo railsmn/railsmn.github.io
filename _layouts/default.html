@@ -17,19 +17,17 @@
 
   {% include navigation.html %}
 
-  <div class="container">
+  <div class="page-container">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-12">
+          {{ content }}
+        </article>
 
-    <article>
-      {{ content }}
-    </article>
-
-     <div class="page-footer">
-       <span>
-        Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>
-        | Hosted by <a href="http://github.com">Github.com</a>
-        | Theme <a href="http://jekyllthemes.org/themes/hushaw/">'hushaw'</a> by <a href="https://github.com/hushaw">hushaw</a>
-        | <span class="page-generator-time">{{site.time | date:"%m/%d/%Y %H:%M"}} </span>
-      </span>
+         <div class="page-footer">
+           {% include footer.html %}
+        </div>
+      </div>
     </div>
   </div>
 
