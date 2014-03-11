@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="RailsMN is a monthly meetup built to help those learning Ruby on Rails build new businesses, cool prototypes, side projects and more in the Minneapolis and St. Paul area.">
+    <meta name="author" content="railsmn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/favicon.ico" rel="shortcut icon">
+    <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/static/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/static/css/application.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/static/js/jquery.js" type="text/javascript"></script>
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+  {% include navigation.html %}
+
+  <div class="container">
+
+    <article>
+      {{ content }}
+    </article>
+
+     <div class="page-footer">
+       <span>
+        Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>
+        | Hosted by <a href="http://github.com">Github.com</a>
+        | Theme <a href="http://jekyllthemes.org/themes/hushaw/">'hushaw'</a> by <a href="https://github.com/hushaw">hushaw</a>
+        | <span class="page-generator-time">{{site.time | date:"%m/%d/%Y %H:%M"}} </span>
+      </span>
+    </div>
+  </div>
+
+</body>
+</html>
