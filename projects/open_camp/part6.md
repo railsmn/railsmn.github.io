@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: open_camp_sidebar
 title: RailsMN OpenCamp Part 6
 ---
 
