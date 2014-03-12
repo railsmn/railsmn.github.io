@@ -1,4 +1,5 @@
-// Lumen 3.1.1
+// RailsMN
+// - based on Lumen (http://bootswatch.com/lumen/) by Thomas Park (http://thomaspark.me/)
 // Variables
 // --------------------------------------------------
 
@@ -653,8 +654,17 @@
 @list-group-active-border:      @list-group-active-bg;
 @list-group-active-text-color:  lighten(@list-group-active-bg, 40%);
 
+//** Text color of disabled list items
+@list-group-disabled-color:      @gray-light;
+//** Background color of disabled list items
+@list-group-disabled-bg:         @gray-lighter;
+//** Text color for content within disabled list items
+@list-group-disabled-text-color: @list-group-disabled-color;
+
 @list-group-link-color:         #555;
+@list-group-link-hover-color:   @list-group-link-color;
 @list-group-link-heading-color: #333;
+
 
 
 //== Panels
@@ -663,6 +673,8 @@
 
 @panel-bg:                    #fff;
 @panel-body-padding:          15px;
+@panel-heading-padding:       10px 15px;
+@panel-footer-padding:        @panel-heading-padding;
 @panel-border-radius:         @border-radius-base;
 
 //** Border color for elements within panels

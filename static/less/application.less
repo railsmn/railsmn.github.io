@@ -1,10 +1,11 @@
 /*
  * application.less
- * by @hushaw
+ * RailsMN
+ * based on hushaw by @hushaw
  * http://hushaw.github.io
  */
 @import "variables.less";
-@import "mixins.less";
+//@import "mixins.less";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 body {
@@ -28,9 +29,29 @@ pre {
     background: #c3e99e;
     text-shadow: none;
 }
-h1, h2, h3 {
-    font-family: Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif;
+
+h3,h4,h5,h6 {
+  font-family: Georgia,"Times New Roman",Times,serif;
 }
+
+.jumbotron {
+  background-color: #f7f7f7;
+}
+
+.sidebar .list-group {
+  margin-top: 24px;
+}
+
+// Navbar =====================================================================
+
+.navbar {
+
+  &-brand {
+    font-family: 'Lobster', cursive;
+  }
+}
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 .page-container {
     max-width: 1000px;
@@ -102,10 +123,6 @@ h1, h2, h3 {
     padding-bottom: 10px;
     margin: 30px 0 20px;
     border-bottom: 1px solid #bbb;
-    h2 {
-        font-weight: 500;
-        font-family: Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif;
-    }
 }
 .page-content {
     border-bottom: 1px dashed #aaa;
@@ -179,7 +196,6 @@ h1, h2, h3 {
 .page-list {
     h3 {
         color: #428bca;
-        font-family: Georgia,"Times New Roman",Times,"Kai","Kaiti SC","KaiTi","BiauKai","楷体","楷体_GB2312",serif;
     }
     ul {
         font-size: 15px;
