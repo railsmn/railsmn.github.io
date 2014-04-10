@@ -1,2 +1,8 @@
 safe: true
 markdown: redcarpet
+title: Rails.MN
+author :
+  name : RailsMN Contributors
+  github : railsmn
+  twitter : railsmn
+  email: railsmn@googlegroups.com
