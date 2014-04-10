@@ -239,7 +239,7 @@ rake db:migrate
 
 You should the following output in your terminal,
 
-``sh
+```sh
 ==  CreateTasks: migrating ====================================================
 -- create_table(:tasks)
 NOTICE:  CREATE TABLE will create implicit sequence "tasks_id_seq" for serial column "tasks.id"
@@ -702,5 +702,3 @@ Post Hacking Presentation
     - ActiveRecord
 - Different types of databases
     - Relational (MySQL, PostgreSQL, Oracle) vs non-relational (MongoDB, Redis, etc)
-
-
