@@ -1,0 +1,70 @@
+/*
+ * site.less
+ * RailsMN
+ * based on hushaw by @hushaw
+ * http://hushaw.github.io
+ */
+
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "./variables.less";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+body {
+    font-family: "PT Serif",Georgia,Arial,sans-serif;
+    background: url("/static/img/light.png") repeat fixed;
+}
+pre {
+    white-space:pre;
+    white-space:pre-wrap;
+    word-break:break-all;
+    word-wrap:break-word;
+    background-color: #eee;
+    box-shadow: 4px 4px 4px #888;
+    padding: 4px;
+    overflow: auto;
+}
+::selection {
+    background: #c3e99e;
+    text-shadow: none;
+}
+h3,h4,h5,h6 {
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.sidebar .list-group {
+  margin-top: 24px;
+}
+
+// Navbar =====================================================================
+
+.navbar {
+
+  &-brand {
+    font-family: 'Lobster', cursive;
+  }
+}
+
+.background {
+  background-color: #f7f7f7;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+footer {
+    border-top: 1px solid #ddd;
+    color: #555;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin-top: 5em;
+    padding: 1.5em .5em;
+    text-align: center;
+    a {
+        color: #1982d1;
+    }
+    .page-generator-time {
+        padding: 0 3px;
+        font-size: 12px;
+        color: #fff;
+        background-color: #428bca;
+    }
+}

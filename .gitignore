@@ -1,0 +1,8 @@
+*.sqlite3
+*.log
+.env
+.bundle/config
+vendor/gems
+bin
+tmp
+_site
