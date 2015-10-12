@@ -11,13 +11,17 @@ title: Virtual Machine Setup with VirtualBox and Vagrant
 
 Straight away, there are three things to download and install:
 
-* [Git](http://git-scm.com/downloads) - [git](http://git-scm.com/) is a program that manages source code, we'll use it later to download parts of our virtual machine. Go to [the downloads page](http://git-scm.com/downloads) and choose the package for your operating system.
+* [Git](http://git-scm.com/downloads) - [git](http://git-scm.com/) is a program that manages source code, we'll use it later to download parts of our virtual machine. Go to [the downloads page](http://git-scm.com/downloads) and choose the package for your operating system. Note for Windows users: make sure to include the GitBash portion in the installation step.
 
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - [VirtualBox](https://www.virtualbox.org) is a free program that runs our virtual machine -- in effect, creating a "computer inside your computer". Look for the **VirtualBox platform packages** section and find the link for your operating system.
 
 * [Vagrant](http://downloads.vagrantup.com/) - [Vagrant](http://vagrantup.com) provides a scriptable interface to the virtual machine, so we can start and stop the virtual machine on demand. We'll be using this shortly to download, install and configure Ruby and Ruby on Rails. Click on the highest-number folder icon to download the specific package for your operating system.
 
 ------
+
+{% include vm_install_warning.html %}
+
+-----
 
 ## Step 2: Building the virtual machine
 
