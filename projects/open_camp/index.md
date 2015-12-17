@@ -3,6 +3,17 @@ layout: default
 title: RailsMN OpenCamp
 ---
 
+<div class="panel panel-danger">
+<div class="panel-heading">
+<h3 class="panel-title">Warning: This Project is Far Out of Date</h3>
+</div>
+<div class="panel-body">
+The OpenCamp project was abandoned by the group some time ago.
+The OpenCamp virtual machine is sorely out of date, and if you use it you'll probably end up having considerable problems with it. We <strong>strongly</strong> recommend picking your own project. See one of the Rails.MN mentors for some other ideas.
+</div>
+</div>
+
+
 # RailsMN OpenCamp
 
 OpenCamp is a clone of [BaseCamp](http://www.basecamp.com/) - one of the first Rails applications.

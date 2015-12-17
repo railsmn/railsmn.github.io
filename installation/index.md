@@ -17,7 +17,34 @@ Our recommended setup process involves installing a virtual machine, so that Rub
 
 Railsist [Jason Hsu](http://www.meetup.com/ruby-on-rails-for-beginners/members/844108/) has put up a youtube playlist showing how to create a Rails + Vagrant virtual development environment at [Ruby on High Speed Rails](https://www.youtube.com/playlist?list=PLfd4iay29eVBey-eRCvjWvO1pGj4_E_Us).
 
-You can also [follow these instructions](vagrant.html) to get started with a virtual development environment.
+Don't [follow these instructions](vagrant.html) to get started with a virtual development environment. (It's way out of date.)
+
+Another alternative for rolling your own virtual development environment:
+
+1. [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. [Install Vagrant](https://www.vagrantup.com/)
+3. Create a new virtual project:
+
+        $ cd to/the/place/i/store/my/projects
+        $ mkdir new_project
+        $ cd new_project
+        $ vagrant init ubuntu/trusty64
+        $ vagrant up
+        $ vagrant ssh
+
+4. Follow [these excellent instructions](http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you/)
+5. Initialize your rails project:
+
+        vagrant$ cd /vagrant # this is mapped to the host machine folder for your project
+        vagrant$ rails new . [options] # select the options you want in your project
+
+6. Start up the rails server:
+
+        vagrant$ rails s -b 0.0.0.0
+
+7. Edit and manage your files on your local host machine with your favourite editor, view the results by pointing your browser at `http://localhost:3000`.
+8. Install gems, bundle, run migrations, etc., in the VM.
+
 
 ### Alternative: [Railsbridge Installfest](http://docs.railsbridge.org/installfest/)
 
