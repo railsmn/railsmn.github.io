@@ -1,0 +1,5 @@
+<dt>{{ include.post.date | date_to_string }}</dt>
+<dd>
+  <h3>{{include.post.title}} <small>{{include.post.author.name}}</small></h3>
+  <p>{{include.post.excerpt | markdownify}}</p>
+</dd>
