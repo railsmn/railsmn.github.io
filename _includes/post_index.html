@@ -1,0 +1,5 @@
+<dl>
+{% for post in include.posts | limit: include.limit %}
+{% include post_index_entry.html post=post %}
+{% endfor %}
+</dl>

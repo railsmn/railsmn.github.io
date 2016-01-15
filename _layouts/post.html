@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article>
+<header class="page-header">
+  <h2>{{ page.title }} <small>{{ page.subtitle }}</small></h2>
+  <p>
+    {% if page.author %}
+    {% if page.author.url %}<a href="{{page.author.url}}">{% endif %}{{page.author.name}}{% if page.author.url %}</a>{% endif %}
+    &bullet;
+    {% endif %}
+    {{ page.date | date_to_string}}
+  </p>
+</header>
+
+{{content}}
+
+</article>

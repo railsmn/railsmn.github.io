@@ -23,3 +23,10 @@ layout: default
     More info at Meetup.com
   </a>
 </div>
+
+<div>
+  <header class="page-header">
+    <h2>Recent news <small></small></h2>
+  </header>
+  {% include post_index.html posts=site.posts limit=3 %}
+</div>
