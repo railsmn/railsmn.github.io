@@ -1,5 +1,4 @@
 safe: true
-markdown: redcarpet
 title: Rails.MN
 author :
   name : RailsMN Contributors
