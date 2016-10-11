@@ -14,5 +14,8 @@ title: Presentations
 
 * [Rails Routing](https://tamouse.github.io/RailsMN-Routing-2016-06-13/) -- [@tamouse][tamouse], June 13, 2016 <small>[[repo](https://github.com/tamouse/RailsMN-Routing-2016-06-13)]</small>
 
+* [Rails Wizard - Google Slides](https://docs.google.com/presentation/d/1GyTvU6ygWVJCVyZxK0IiZWQ8itf5UrG4zMR-ZlXOUVY/edit#slide=id.p)
+  -- Joel Hill, July 11, 2016
+
 
 [tamouse]: https://github.com/tamouse "Tamara Temple"

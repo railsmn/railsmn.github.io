@@ -8,6 +8,13 @@ author:
 
 ---
 
+**UPDATE Tue Oct 11 14:53:49 2016** The Iron Yard has moved into a new
+facility in downtown Minneapolis, but with restructuring and moving
+costs is no longer in a position to sponsor food for our events.
+
+------
+
+
 A great big thank you and welcome to [The Iron Yard], a new
 development boot-camp coming into the Twin Cities. They are sponsoring
 our monthly meetup's pizza and soda, which is really awesome. Thanks
