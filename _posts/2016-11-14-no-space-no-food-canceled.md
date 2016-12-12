@@ -13,12 +13,18 @@ available to us.
 Along with the lack of food sponsorship, and the uncertaintly surrounding this,
 I've cancelled future monthly meetups for the time being.
 
-I'm also reaching out for someone to step up for organizing this meetup. 
+I'm also reaching out for someone to step up for organizing this meetup.
 I no longer have time to spend finding sponsors, getting things organized,
 and keeping things running. I need help for this meetup group to keep going.
 
-Contact me through meetup.com "Message the Organizers" link (it will go to all
-the people marked as organizers, not just me) if you can provide help.
+If you are interested in discussing ideas about getting new space and
+food sponsors, the place to do that is our Google Group
+at
+[https://groups.google.com/forum/#!forum/railsmn](https://groups.google.com/forum/#!forum/railsmn).
+
+
+
+
 
 Tamara Temple
 
