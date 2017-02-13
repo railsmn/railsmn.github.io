@@ -3,6 +3,11 @@ layout: default
 title: Virtual Machine Setup with VirtualBox and Vagrant
 ---
 
+# THESE INSTRUCTIONS ARE DEPRECATED
+
+We recommend you follow [these](vagrant2.md) instead.
+
+
 # Ruby on Rails: Virtual Machine Setup with VirtualBox and Vagrant
 
 ------

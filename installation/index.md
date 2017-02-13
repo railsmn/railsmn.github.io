@@ -15,7 +15,16 @@ There are a variety of ways to install Ruby and Ruby on Rails.
 
 Our recommended setup process involves installing a virtual machine, so that Ruby and Rails run inside a managed environment. This limits installation headaches and puts everyone in the class or on your team on similar footing, regardless of whether your laptop is running Windows, Ubuntu (or other GNU/Linux distribution), or OS X.
 
-Railsist [Jason Hsu](http://www.meetup.com/ruby-on-rails-for-beginners/members/844108/) has put up a youtube playlist showing how to create a Rails + Vagrant virtual development environment at [Ruby on High Speed Rails](https://www.youtube.com/playlist?list=PLfd4iay29eVBey-eRCvjWvO1pGj4_E_Us). Look for his latest vagrant setup [here](https://github.com/jhsu802701/vagrant-debian-jessie)
+<del>Railsist
+[Jason Hsu](http://www.meetup.com/ruby-on-rails-for-beginners/members/844108/) has
+put up a youtube playlist showing how to create a Rails + Vagrant
+virtual development environment
+at
+[Ruby on High Speed Rails](https://www.youtube.com/playlist?list=PLfd4iay29eVBey-eRCvjWvO1pGj4_E_Us). Look
+for his latest vagrant
+setup
+[here](https://github.com/jhsu802701/vagrant-debian-jessie)</del>
+These are out of date or no longer exist.
 
 [**Another alternative**](vagrant2.html) for rolling your own virtual development environment with Vagrant.
 
