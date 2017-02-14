@@ -10,7 +10,7 @@ to [Prime Digital Academy](https://www.primeacademy.io/) for letting
 us use their awesome space.
 
 I was inspired to update this site by adding a new
-section, [Learning Resources]({{site.baseurl}}/learning) listing
+section, [Learning Resources]({{site.baseurl}}/resources) listing
 online resources for learning Ruby and Rails.
 
 Check it out, I hope you like it. If you have feedback, please use
