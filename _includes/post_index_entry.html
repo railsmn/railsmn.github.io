@@ -1,5 +1,10 @@
-<dt>{{ include.post.date | date_to_string }}</dt>
-<dd>
-  <h3><a href="{{ post.url | prepend: site.baseurl }}">{{include.post.title}}</a> <small>{{include.post.author.name}}</small></h3>
-  <p>{{include.post.excerpt | markdownify}}</p>
-</dd>
+<h3>
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    {{include.post.title}}
+  </a>
+  <small>
+    {% if include.post.author.name %} by {{include.post.author.name}}{% endif %}
+    on {{include.post.date | date_to_string}}
+  </small>
+</h3>
+<p>{{include.post.excerpt | markdownify}}</p>

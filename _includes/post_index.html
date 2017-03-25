@@ -1,5 +1,5 @@
-<dl>
+<div class="post-index">
 {% for post in include.posts | limit: include.limit %}
 {% include post_index_entry.html post=post %}
 {% endfor %}
-</dl>
+</div>
