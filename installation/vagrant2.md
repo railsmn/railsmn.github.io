@@ -1,19 +1,23 @@
 ---
 layout: default
-title: Yet Another Tutorial on Creating a Vagrant Rails Box
 ---
 
-# {{page.title}}
+# Install a Virtual Ruby on Rails development environment
 
-If you still wish to roll your own virtual development environment, these steps should work.
-It is a good exercise to do this for yourself, although it takes a bit of time.
+If you still wish to roll your own virtual development environment,
+these steps should work.  It is a good exercise to do this for
+yourself, although it takes a bit of time.
 
-The commands you enter on your local host are prefixed by `$` and the commands you enter on the virtual machine are prefixed by `vagrant$`.
+The commands you enter on your local host are prefixed by `$` and the
+commands you enter on the virtual machine are prefixed by `vagrant$`.
 
-## Setting up your local "host" machine
+## Before you begin: Prerequisites
 
 1. [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. [Install Vagrant](https://www.vagrantup.com/)
+
+## Setting up your local "host" machine
+
 3. Create a new virtual project:
 
         $ cd to/the/place/i/store/my/projects
@@ -89,16 +93,16 @@ All that work to create the box, now you can package it up so you don't have to 
 
     From the `new_project` directory on the host machine, enter:
 
-        $ vagrant package --output rails4-2-4.box # you can choose your own name for the box file if you wish
-        $ vagrant box add --name rails4-2-4 rails4-2-4.box
+        $ vagrant package --output my_rails.box # you can choose your own name for the box file if you wish
+        $ vagrant box add --name my_rails my_rails.box
 
-2. Starting your new virtual machin
+2. Starting your new virtual machine
 
     The next time you want to create a VM for a rails project, instead of the previous `vagrant init ubuntu/trusty64` command, you enter:
 
         $ mkdir another_new_project
         $ cd another_new_project
-        $ vagrant init rails4-2-4
+        $ vagrant init my_rails
 
     (Modify the `Vagrantfile` as needed for this project.)
 
@@ -111,4 +115,5 @@ All that work to create the box, now you can package it up so you don't have to 
 
     At this point, you don't have to do any more installation of Ruby, Rails, Git, and the rest because it's already there! You can go straight on to creating your project with `rails new`.
 
-This should give you a Rails development box suitable for beginning projects and learning your way arround Rails sufficiently. When you want to start developing a "real" application, you'll want to also have on your system the database(s) you'll be using in production, which you'll need to install on your VM as well. At that point, it's time to reach for more advanced instructions with automation, which are all over the web. Search for terms like 'vagrant ansible starter kit'. Or you may just go back and use Jason's scheme with [vagrant-debian-jesse](https://github.com/jhsu802701/vagrant-debian-jessie) and [generic_app](https://github.com/jhsu802701/generic_app).
+This should give you a Rails development box suitable for beginning
+projects and learning your way arround Rails sufficiently.
