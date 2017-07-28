@@ -6,7 +6,7 @@ This is a static Jekyll website, supported by Github Pages.
 
     git clone git@github.com:railsmn/railsmn.github.io.git
     cd railsmn.github.io
-	bundle install
+    bundle install
 
 ## Preview Server
 
