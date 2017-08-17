@@ -1,5 +1,8 @@
 # Website for the Rails.MN Beginner's Meetup Group
 
+[![Help Wanted](https://img.shields.io/badge/Help-Wanted-brightgreen.svg)](https://github.com/railsmn/railsmn.github.io#contributing)
+[![Code of Conduct](https://img.shields.io/badge/Code-of%20Conduct-blue.svg)](https://github.com/railsmn/railsmn.github.io/blob/master/CONTRIBUTOR_COVENANT)
+
 This is a static Jekyll website, supported by Github Pages.
 
 ## Installation
@@ -15,6 +18,10 @@ Jekyll has a built-in server to preview your edits:
     bundle exec jekyll serve
 
 ## Contributing
+
+Check
+the [issues](https://github.com/railsmn/railsmn.github.io/issues) for
+any "Help Wanted" tags.
 
 Fork the repo on GitHub, clone it to your system and install as above.
 

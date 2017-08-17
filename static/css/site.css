@@ -360,7 +360,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Lobster', cursive;
+  font-family: sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5513,7 +5513,7 @@ button.close {
   height: 20px;
   margin-top: -10px;
   margin-left: -10px;
-  font-family: serif;
+  font-family: sans-serif;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -5779,7 +5779,7 @@ button.close {
   }
 }
 body {
-  font-family: "PT Serif", Georgia, Arial, sans-serif;
+  font-family: sans-serif;
   background: url("/static/img/light.png") repeat fixed;
 }
 pre {
@@ -5800,7 +5800,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif;
 }
 .sidebar .list-group {
   margin-top: 24px;
