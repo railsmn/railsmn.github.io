@@ -15,7 +15,7 @@ This is a static Jekyll website, supported by Github Pages.
 
 Jekyll has a built-in server to preview your edits:
 
-    bundle exec jekyll serve
+    sh server.sh
 
 ## Contributing
 
