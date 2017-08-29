@@ -24,6 +24,10 @@ Ruby on Rails option.
 
 ## Recommended for Experienced Developers
 
+### The Docker Way (Easiest)
+* Linux is the preferred OS.  If you must use MacOS or Windows as your host OS, you can use VirtualBox to install a Linux virtual machine and then run Docker in Linux.  The full instructions for doing this are in the [VirtualBox Tutorial](https://github.com/jhsu802701/tutorial-virtualbox).
+* Once you have Linux installed as your host OS or virtual OS, install Docker.  For more details, go to the [Docker Tutorial](https://github.com/jhsu802701/tutorial-docker-stretch) to get started.
+
 ### Install a virtual machine for a Ruby on Rails development environment.
 
 This setup involves installing a virtual machine, so that Ruby
@@ -51,7 +55,7 @@ Follow the instructions [here](vagrant2.html).
 </tbody>
 </table>
 
-### Railsbridge Installfest
+### Railsbridge Installfest (Hardest)
 
 Some people find setting up Vagrant and VirtualBox to be an
 unnecessary headache, or just want the experience of running Rails on

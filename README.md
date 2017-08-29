@@ -5,17 +5,22 @@
 
 This is a static Jekyll website, supported by Github Pages.
 
-## Installation
+## Setup (Docker Way)
+Go to https://gist.github.com/jhsu802701/664e40c2f15e861bd64a3fd639163072 for further instructions on how to set up Rails.MN on your local machine.
+
+## Setup (Traditional Way)
+
+### Installation
 
     git clone git@github.com:railsmn/railsmn.github.io.git
     cd railsmn.github.io
     bundle install
 
-## Preview Server
+### Preview Server
 
 Jekyll has a built-in server to preview your edits:
 
-    bundle exec jekyll serve
+    sh server.sh
 
 ## Contributing
 
