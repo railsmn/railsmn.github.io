@@ -24,6 +24,9 @@ Ruby on Rails option.
 
 ## Recommended for Experienced Developers
 
+### Install a Docker image with pre-installed Ruby on Rails.
+For more details, go to the [Docker Tutorial](https://github.com/jhsu802701/tutorial-docker-stretch) to get started.
+
 ### Install a virtual machine for a Ruby on Rails development environment.
 
 This setup involves installing a virtual machine, so that Ruby
